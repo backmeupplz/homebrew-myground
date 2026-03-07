@@ -1,30 +1,30 @@
 class Myground < Formula
   desc "Self-hosting platform — hold your ground"
   homepage "https://github.com/backmeupplz/myground"
-  version "0.1.23"
+  version "0.1.24"
   license "MIT"
 
   depends_on "docker" => :recommended
 
   on_macos do
     on_intel do
-      url "https://github.com/backmeupplz/myground/releases/download/v0.1.23/myground-x86_64-apple-darwin"
-      sha256 "f8aa5b63fcb02386a0bdab41b6273d192249c8fde8c744a80bd2968d9726d496"
+      url "https://github.com/backmeupplz/myground/releases/download/v0.1.24/myground-x86_64-apple-darwin"
+      sha256 "7385b609136387a2b8772d6fdb4c60b46f4451316b8d2486de175c30f7b3c2a8"
     end
     on_arm do
-      url "https://github.com/backmeupplz/myground/releases/download/v0.1.23/myground-aarch64-apple-darwin"
-      sha256 "9782511bdb3b37e8657d5fdd75585a34b88c47ff7ef36dafd9c93e1241f73089"
+      url "https://github.com/backmeupplz/myground/releases/download/v0.1.24/myground-aarch64-apple-darwin"
+      sha256 "80eb254071754a565f55ef88be94dc1b394c8d9f41d501487994d8677de89ba1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/backmeupplz/myground/releases/download/v0.1.23/myground-x86_64-unknown-linux-gnu"
-      sha256 "2fd077d4488a72962c6d9099ed4480da9b9ace101df9d0704a6dcf5ca62f6f5b"
+      url "https://github.com/backmeupplz/myground/releases/download/v0.1.24/myground-x86_64-unknown-linux-gnu"
+      sha256 "a4349ea74e749c728ac528890766a00309d8ca513f8c7445ef0b0e73d766c394"
     end
     on_arm do
-      url "https://github.com/backmeupplz/myground/releases/download/v0.1.23/myground-aarch64-unknown-linux-gnu"
-      sha256 "5396c19cd57c61eedcc8f0e09032ccf433da1c855d3dfcd7a5f3dff9acd5c6a7"
+      url "https://github.com/backmeupplz/myground/releases/download/v0.1.24/myground-aarch64-unknown-linux-gnu"
+      sha256 "4c2ceab91a60bb6cf9f7be7a8d74b9ecb0356e69c6dc63f97d3fc1edfbb02917"
     end
   end
 
