@@ -9,22 +9,22 @@ class Myground < Formula
   on_macos do
     on_intel do
       url "https://github.com/backmeupplz/myground/releases/download/v0.1.48/myground-x86_64-apple-darwin"
-      sha256 "8c8ed9c5f84084b4f0fef58698142716fdd88b198dfa64c0134fcba12fba93e5"
+      sha256 "509bbb5d69c487ceadb1f8114e39f3d1b851eeef3798c9507bbb78ca5236f1f5"
     end
     on_arm do
       url "https://github.com/backmeupplz/myground/releases/download/v0.1.48/myground-aarch64-apple-darwin"
-      sha256 "9de5770015a9bc4877c7b4972b15c0557fea945b72db6a115131a43955b8646c"
+      sha256 "0762ea5ba8adb19eb64256218d4b2e116a76b108e688abf277fcaf31163c8844"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/backmeupplz/myground/releases/download/v0.1.48/myground-x86_64-unknown-linux-gnu"
-      sha256 "8feb6009243d6d115a79e0ac75997d8e8b056f2a7801b956aff79c51c794456b"
+      sha256 "8c3632e101aa56a6fb3bb70f3bbbb3beac210e4eff193f2c68faa4792d8c1e98"
     end
     on_arm do
       url "https://github.com/backmeupplz/myground/releases/download/v0.1.48/myground-aarch64-unknown-linux-gnu"
-      sha256 "8f3081e58451e1b496b54a1b7910fc0caa0d9462834828e02a0039fb0cc4d893"
+      sha256 "0656e5155e6fb7158b291fb11ed99e8b457a8c14801aef69409a4e327d2d085a"
     end
   end
 
